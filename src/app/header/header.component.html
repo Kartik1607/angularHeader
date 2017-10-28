@@ -1,0 +1,10 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <img class="navbar-brand" src={{logo}} />
+    </div>
+      <ul class="nav navbar-nav navbar-right" *ngFor="let item of items">
+        <li><a>{{item.toLocaleUpperCase()}}</a></li>
+      </ul>
+    </div>
+</nav>
