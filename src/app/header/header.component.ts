@@ -10,7 +10,7 @@ export class HeaderComponent implements OnInit {
   logo: string;
 
   constructor() {
-    this.logo = '../../assets/logo.png'
+    this.logo = 'assets/logo.png'
     this.items = ['About Us', 'Courses', 'Bootcamps', 'Events', 'Resources', 'Competitions', 'Contact Us'];
   }
 
